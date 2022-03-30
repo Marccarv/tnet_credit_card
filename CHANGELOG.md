@@ -33,4 +33,8 @@
 
 ## 0.0.9
 
-* Removed images.
+* Removed images
+
+## 0.0.10
+
+* Fixed more bugs

@@ -328,23 +328,19 @@ Row _logosPlacement(Image firstLogo, Image secondLogo) {
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
     children: [
       /// First logo returns the Image.asset by default
-      firstLogo,
-      //!
-      /*??
+      firstLogo ??
           Image.asset(
-            "assets/images/bpi.png",
+            "assets/images/bpi_logo.png",
             width: 150,
-          ),*/
+          ),
 
       /// Second logo returns the Image.asset by default
-      secondLogo,
-      //!
-      /*??
+      secondLogo ??
           Image.asset(
-            "assets/images/visa.png",
+            "assets/images/visa_logo.png",
             color: Colors.white,
             width: 60,
-          ),*/
+          ),
     ],
   );
 }
