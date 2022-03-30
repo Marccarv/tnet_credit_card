@@ -1,0 +1,27 @@
+name: tnet_credit_card
+description: TNET Credit Card
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+# The following section is specific to Flutter.
+flutter:
+
+  # To add assets to your package, add an assets section, like this:
+  assets:
+    - asset/images/bpi_logo.png
+    - asset/images/visa_logo.png
+  
