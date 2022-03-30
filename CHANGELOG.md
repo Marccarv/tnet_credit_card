@@ -18,3 +18,7 @@
 ## 0.0.5
 
 * Made a few improvements
+
+## 0.0.6
+
+* Removed some bugs!
