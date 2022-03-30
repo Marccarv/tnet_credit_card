@@ -51,8 +51,6 @@ class TNETCreditCard extends StatefulWidget {
   /// Variable [shadowGradient] type [Color] used to change the container's shadows in right corner in case it's  gradient
   final Color shadowGradient;
 
-//!
-
   /// Constructor
   const TNETCreditCard({
     Key key,
