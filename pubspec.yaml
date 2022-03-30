@@ -1,7 +1,7 @@
 name: tnet_credit_card
 description: TNET Credit Card
 version: 0.0.1
-homepage:
+repository: https://github.com/Marccarv/tnet_credit_card.git
 
 environment:
   sdk: ">=2.11.0 <3.0.0"
