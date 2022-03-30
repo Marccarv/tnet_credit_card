@@ -30,3 +30,7 @@
 ## 0.0.8
 
 * Another attemp
+
+## 0.0.9
+
+* Removed images.
