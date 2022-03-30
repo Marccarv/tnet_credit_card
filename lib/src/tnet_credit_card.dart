@@ -330,14 +330,14 @@ Row _logosPlacement(Image firstLogo, Image secondLogo) {
       /// First logo returns the Image.asset by default
       firstLogo ??
           Image.asset(
-            "asset/images/bpi_logo.png",
+            "assets/images/bpi_logo.png",
             width: 150,
           ),
 
       /// Second logo returns the Image.asset by default
       secondLogo ??
           Image.asset(
-            "asset/images/visa_logo.png",
+            "assets/images/visa_logo.png",
             color: Colors.white,
             width: 60,
           ),
@@ -347,4 +347,4 @@ Row _logosPlacement(Image firstLogo, Image secondLogo) {
 
 /// #endregion
 
-// #endregion
+/// #endregion
