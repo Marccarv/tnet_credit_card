@@ -22,3 +22,7 @@
 ## 0.0.6
 
 * Removed some bugs!
+
+## 0.0.7
+
+* Fixed crash due image load
