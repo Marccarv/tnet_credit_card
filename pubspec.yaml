@@ -1,21 +1,25 @@
 name: tnet_credit_card
-description: TNET Credit Card
-version: 0.1.0
+description: TNET Credit Card, an widget for testing purpose! My first package release experience...much more to come!
+version: 0.1.1
 repository: https://github.com/Marccarv/tnet_credit_card.git
+
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
   flutter: ">=1.17.0"
+
 
 dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^2.3.1
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
+
 
 # The following section is specific to Flutter.
 flutter:

@@ -42,3 +42,8 @@
 ## 0.1.0
 
 * Migration to Null Safety
+
+## 0.1.1
+
+* Added a description
+* Added an example
