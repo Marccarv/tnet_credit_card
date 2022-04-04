@@ -10,50 +10,50 @@ import 'package:google_fonts/google_fonts.dart';
 /// [TNETCreditCard] is a clickable container for testing purpose
 class TNETCreditCard extends StatefulWidget {
   /// Variable [cardName] type [String] user can declarate his card name
-  final String cardName;
+  final String? cardName;
 
   /// Variable [cardNumber] type [String] user can declarate his card number
-  final String cardNumber;
+  final String? cardNumber;
 
   /// Variable [cardExpirationDate] type [String] user can declarate his card expiration date
-  final String cardExpirationDate;
+  final String? cardExpirationDate;
 
   /// Variable [cardExpirationText] type [String] user can declarate his card expiration text
-  final String cardExpirationText;
+  final String? cardExpirationText;
 
   /// Variable [firstLogo] type [Image] can accept an image and set it in first position
-  final Image firstLogo;
+  final Image? firstLogo;
 
   /// Variable [secondLogo] type [Image] can accept an image and set it in second position
-  final Image secondLogo;
+  final Image? secondLogo;
 
   /// Variable [height] type [double] you're able to customize container's height
-  final double height;
+  final double? height;
 
   /// Variable [width] type [double] that permites user to change containers width
-  final double width;
+  final double? width;
 
   /// Variable [textExpirationColor] type [Color] can be used to change expiration text
-  final Color textExpirationColor;
+  final Color? textExpirationColor;
 
   /// Variable [textInputsColor] type [Color] can be used to change user's inputs text color
-  final Color textInputsColor;
+  final Color? textInputsColor;
 
   /// Variable [uniqueColor] type [Color] used to change the container's color in case it's not gradient
-  final Color uniqueColor;
+  final Color? uniqueColor;
 
   /// Variable [firstGradientColor] type [Color] used to change first container's color in case it's gradient
-  final Color firstGradientColor;
+  final Color? firstGradientColor;
 
   /// Variable [secondGradientColor] type [Color] used to change second container's color in case it's gradient
-  final Color secondGradientColor;
+  final Color? secondGradientColor;
 
   /// Variable [shadowGradient] type [Color] used to change the container's shadows in right corner in case it's  gradient
-  final Color shadowGradient;
+  final Color? shadowGradient;
 
   /// Constructor
   const TNETCreditCard({
-    Key key,
+    Key? key,
     this.width,
     this.height,
     this.cardName,
@@ -151,13 +151,13 @@ class _TNETCreditCardState extends State<TNETCreditCard> {
               : LinearGradient(
                   colors: [
                     /// Gradient's first color as shadow
-                    widget.shadowGradient ?? widget.firstGradientColor,
+                    widget.shadowGradient ?? widget.firstGradientColor!,
 
                     /// Gradient's first color
-                    widget.firstGradientColor,
+                    widget.firstGradientColor!,
 
                     /// Gradient's second color
-                    widget.secondGradientColor,
+                    widget.secondGradientColor!,
                   ],
 
                   /// Gradient's start point
@@ -323,7 +323,7 @@ Row _namePlacement(widget, size, _textInputsColor, _cardName) {
 
 /// #region [_logosPlacement] returns a [Row] with [firstLogo] and [secondLogo]
 
-Row _logosPlacement(Image firstLogo, Image secondLogo) {
+Row _logosPlacement(Image? firstLogo, Image? secondLogo) {
   return Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
     children: [

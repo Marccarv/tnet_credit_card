@@ -4,7 +4,7 @@ version: 0.0.10
 repository: https://github.com/Marccarv/tnet_credit_card.git
 
 environment:
-  sdk: ">=2.11.0 <3.0.0"
+  sdk: ">=2.16.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
