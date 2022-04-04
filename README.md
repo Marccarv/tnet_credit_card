@@ -11,7 +11,7 @@ Credit card widget.
 ```yaml 
 
 dependencies:
-  tnet_credit_card: ^0.0.10
+  tnet_credit_card: ^0.1.0
 
 ```
 

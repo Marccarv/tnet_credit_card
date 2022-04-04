@@ -38,3 +38,7 @@
 ## 0.0.10
 
 * Fixed more bugs
+
+## 0.1.0
+
+* Migration to Null Safety
